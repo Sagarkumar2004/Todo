@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+color: white;
+background-image: linear-gradient(to right, rgb(63, 11, 11) , rgb(20, 75, 101));
+font-family: 'Lato', sans-serif;
+}
+.heading{
+    position: absolute;
+    top: 5%; right: 50%;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    margin: 80px auto;
+    width: 900px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 23px;
+    background-image: url(image/bg-3.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.box{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    color: black;
+    
+}
+
+#title{
+    width: 280px;
+    height: 40px;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+#TodoItem{
+    width: 550px;
+    height: 50px;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid transparent;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.btn{
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    margin: auto;
+    border: 0px solid transparent;
+    cursor: pointer;
+    border-radius: 14px;
+    background-image:linear-gradient(to right, rgb(194, 40, 194) , rgb(22, 181, 255));    
+    color: black;
+    
+}
+.btn:hover{
+    border: 1px solid white;
+    color: white;
+    
+}
+.result{
+    margin: 8px;
+}
+.taskList{
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    color: black;
+}
+.PrintTitle{
+    color: rgb(17, 255, 148);
+    
+   
+}
+.printTodoItem{
+    color: rgb(252, 235, 199);
+    
+}
+.btn-delete{
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    margin: 4px 0px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-radius: 14px;
+    background-color: rgb(251, 47, 40);
+    color: rgb(0, 0, 0);
+}
+.btn-delete:hover{
+    background-color: rgb(246, 66, 60);
+    color: white;
+    
+}
+
+@media only screen and (max-width: 800px) {
+
+    .container{
+        width: auto;
+        height: 1000px;
+        
+    }
+    .btn{
+        width: 70px;
+        height: 40px;
+        font-size: 18px;
+        
+        
+    }
+    #TodoItem{
+        width: 280px;
+        font-size: 15px;
+    }
+    .taskList{
+        font-size: 18px;
+       
+    }
+    .btn-delete{
+        width: 50px;
+        height: 30px;
+        border-radius: 8px;
+        font-size: 12px;
+       
+      
+    }
+
+           
+
+}
+         
+
+ 
